@@ -4,7 +4,11 @@
   "identifier": "com.pa.kiwi.airtrails",
   "display_name": "Air Rainbow Trails",
   "build": "76843",
+<<<<<<< HEAD
   "date": "2015/01/18",
+=======
+  "date": "2015/01/17",
+>>>>>>> origin/master
   "description": "Adds a super colorful rainbow trail to the back of fast flying air units and avengers.",
   "category": [
         "in-game",
@@ -12,7 +16,11 @@
 		"effects"
     ],
   "author": "KillerKiwiJuice",
+<<<<<<< HEAD
   "version": "4.0",
+=======
+  "version": "3.1",
+>>>>>>> origin/master
   "signature": "not yet implemented",
   "priority": 100,
   "forum": "https://forums.uberent.com/threads/rel-air-trails.67257/",
