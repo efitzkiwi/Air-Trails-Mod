@@ -61,6 +61,9 @@
             "audio_cue": "/SE/Death/Air"
         }
     },
+     "death_weapon": {
+        "air_ammo_spec": "/pa/ammo/air_pbaoe/air_pbaoe.json"
+    },
     "audio": {
         "loops": {
             "move": {
