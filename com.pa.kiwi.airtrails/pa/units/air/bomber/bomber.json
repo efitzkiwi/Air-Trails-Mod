@@ -34,6 +34,9 @@
         "allow_pushing": false,
         "air_friction": 1
     },
+    "death_weapon": {
+        "air_ammo_spec": "/pa/ammo/air_pbaoe/air_pbaoe.json"
+    },
     "recon": {
         "observer": {
             "items": [
