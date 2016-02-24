@@ -3,8 +3,8 @@
 	"display_name": "!LOC:Advanced Fab Aircraft",
 	"description": "!LOC:Advanced fabricator- Wired to build structures.",
 	"max_health": 100,
-	"build_metal_cost": 2100,
-	"buildable_types": "Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild",
+	"build_metal_cost": 2200,
+	"buildable_types": "Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild | FabBuild | Titan & Air",
 	"attachable": {
 		"offsets": {
 			"root": [0, 0, 0],
