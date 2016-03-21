@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-	"display_name": "!LOC:Hornet",
-	"description": "!LOC:Tactical Bomber- Long range. High damage tactical missiles. Attacks land and sea targets.",
+	"display_name": "Hornet",
+	"description": "Tactical Bomber- Long range. High damage tactical missiles. Attacks land and sea targets.",
 	"max_health": 200,
 	"build_metal_cost": 1200,
 	"unit_types": ["UNITTYPE_Bomber", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Air", "UNITTYPE_Tactical", "UNITTYPE_Advanced", "UNITTYPE_FactoryBuild"],

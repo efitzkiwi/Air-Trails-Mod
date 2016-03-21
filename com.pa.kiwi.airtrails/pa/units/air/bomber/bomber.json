@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-	"display_name": "!LOC:Bumblebee",
-	"description": "!LOC:Carpet Bomber- High damage over a wide area. Fragile and slow. Attacks land, sea and undersea targets.",
+	"display_name": "Bumblebee",
+	"description": "Carpet Bomber- High damage over a wide area. Fragile and slow. Attacks land, sea and undersea targets.",
 	"max_health": 100,
 	"build_metal_cost": 280,
 	"unit_types": ["UNITTYPE_Bomber", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Air", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild"],

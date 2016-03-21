@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-	"display_name": "!LOC:Hummingbird",
-	"description": "!LOC:Fighter- Fast. High damage. Only attacks air targets.",
+	"display_name": "Hummingbird",
+	"description": "Fighter- Fast. High damage. Only attacks air targets.",
 	"max_health": 150,
 	"build_metal_cost": 180,
 	"unit_types": ["UNITTYPE_Fighter", "UNITTYPE_Air", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild"],
