@@ -8,7 +8,7 @@ pa_path = utils.pa_dir()
 
 mod_path = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
 
-unit_list_path = "/pa/units/unit_list.json"
+unit_list_path = "/pa_ex1/units/unit_list.json"
 
 unit_list = utils.load_base_json(unit_list_path)
 
@@ -55,6 +55,12 @@ for unit in unit_list['units']:
     mod_air_unit = os.path.join(mod_path, unit[1:])
     pa_air_unit = os.path.join(pa_path, unit[1:])
 
+    pa_air_unit = pa_air_unit.replace("pa", "pa_ex1")
+    # if /pa_ex1 path doesn't exist, fallback to use the /pa path
+    # some titan units don't shadow the base pa units... such as air scout
+    if not os.path.exists(pa_air_unit):
+        pa_air_unit = pa_air_unit.replace("pa_ex1", "pa")
+
     # check if we have a air_unit in the listed location
     if os.path.exists(pa_air_unit):
         # check if the current unit has base spec of a flying air unit
@@ -66,7 +72,7 @@ for unit in unit_list['units']:
         if orbital_fighter_path not in unit:
             if '/pa/units/air/base_flyer/' not in air_unit.get('base_spec',''): continue
         
-        print 'Updating: ', os.path.basename(pa_air_unit)
+        print('Updating: ', os.path.basename(pa_air_unit))
         
         # create mod folder if it does not exist
         if not os.path.exists(os.path.dirname(mod_air_unit)):
